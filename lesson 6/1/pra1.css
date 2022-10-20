@@ -1,0 +1,35 @@
+.kuki {
+    box-shadow: 2px 2px 5px rgb(255, 5, 5);
+    justify-content: center;
+
+}
+
+.kuki:hover {
+    animation: breathing 0.5s infinite alternate;
+
+
+}
+
+@keyframes breathing {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.5);
+    }
+}
+
+.kuki2:hover {
+    animation: hayde 0.5s infinite alternate;
+}
+
+@keyframes hayde {
+    0% {
+        text-shadow: 0px 0px 0px green;
+    }
+
+    100% {
+        text-shadow: 3px 3px 6px green;
+    }
+}
