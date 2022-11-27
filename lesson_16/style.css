@@ -1,0 +1,14 @@
+.dod {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+body {
+    text-align: center;
+    background-color: cadetblue;
+}
+.bod {
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 5%;
+    height: 150px;
+    flex-flow: nowrap;
+}
