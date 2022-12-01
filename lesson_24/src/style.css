@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+}
+.Log{
+    height: 300px;
+    width: auto;
+    display: flex;
+    align-items:center ; 
+    text-align: center;
+    justify-content: center;
+    
+}
+.div1{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items:center ; 
+    text-align: center;
+    justify-content: center;
+}
+/* input{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items:center ; 
+    text-align: center;
+    justify-content: center;
+    
+} */
+/* label{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items:center ; 
+    text-align: center;
+    justify-content: center;
+    
+} */
