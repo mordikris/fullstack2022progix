@@ -193,7 +193,7 @@ trim(str4);                                  // call the function with the new s
 
 // fibunacci sequence - https://en.wikipedia.org/wiki/Fibonacci_number
 // write a function that returns the nth number in the fibonacci sequence
-
+console.log(`---------------------8---------------------`);
 let n = 7;
 
 const fibonacci = (n) => {  // A fibonacci sequence is written as: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
