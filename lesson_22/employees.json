@@ -1,0 +1,70 @@
+{
+    
+        "emp1":
+        {
+            "firstName": "yohan",
+            "lastName": "kristofer",
+            "age": "50",
+            "eyesColor": "blue",
+            "children": "3"
+        },
+    
+        "emp2": 
+        {
+            "firstName": "aan",
+            "lastName": "nibar",
+            "age": "25",
+            "eyesColor": "white",
+            "children": "1"
+        },
+        "emp3":
+        {
+            "firstName": "shlomi",
+            "lastName": "kolombus",
+            "age": "76",
+            "eyesColor": "orange",
+            "children": "5"
+        },
+        "emp4":
+        {
+            "firstName": "shushan",
+            "lastName": "peretz",
+            "age": "32",
+            "eyesColor": "green",
+            "children": "0"
+        },
+        "emp5":
+        {
+            "firstName": "aharon",
+            "lastName": "bunin",
+            "age": "89",
+            "eyesColor": "red",
+            "children": "31"
+        },
+        "emp6":
+        {
+            "firstName": "ben",
+            "lastName": "benibeni",
+            "age": "11",
+            "eyesColor": "gold",
+            "children": "2"
+        },
+        "emp7":
+        {
+            "firstName": "sam",
+            "lastName": "samimi",
+            "age": "90",
+            "eyesColor": "green",
+            "children": "6"
+        },
+        "emp8":
+        {
+            "firstName": "eli",
+            "lastName": "yakubub",
+            "age": "21",
+            "eyesColor": "red",
+            "children": "100"
+        }
+    
+    
+}
