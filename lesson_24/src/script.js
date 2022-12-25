@@ -21,34 +21,41 @@ let json = fetch('../dataBase.json')
     .then(data => {
         Data_Base = data;
     })
+
+    
 let showUser = () => {
-    alert(`username is : ` + Data_Base.test_user.username + `password is : ` + Data_Base.test_user.password);
+    alert(`username is : ` + Data_Base.users.username + `password is : ` + Data_Base.users.password);
 }
 
-// function redirect() {
-//     if ((Data_Base.test_user.username === user) && (Data_Base.test_user.password === password)) {
-//         window.location.assign("https://www.intercom.com/blog/welcome-page/");
-//     } else {
-//         alert(`it's the wrong username & password`)
-//     }
-
-// }
 function redirect(link) {
     window.location.assign(link)
 }
-function redirect2(){
+
+
+function redirect2() {
     window.location.assign("login.html");
+    if (location.pathname == "/lessons/lesson_24/src/index.html") {
+        if (sessionStorage.getItem("isLogin") == "true") {
+            hLogOut();
+        }
+    }
 }
+
+
+function hLogOut() {
+    window.sessionStorage.clear();
+    window.location.reload(true);
+    window.location.replace('../src/index.html');
+}
+
+
 function morph() {
-    if (location.pathname == "/lesson_24/src/index.html") {
+    if (location.pathname == "/lessons/lesson_24/src/index.html") {
         if (sessionStorage.getItem("isLogin") == "true") {
             document.getElementById("userH").textContent = `welcome back ${sessionStorage.getItem("username")}`;
             document.getElementById("img").style.backgroundImage = "url(https://avi-home.co.il/wp-content/uploads/2021/01/AS373714.jpeg)";
-            document.getElementById("log").style.display = "none";
-             let createButton = document.createElement("button");
-             document.getElementById("logout") = createButton ;
-             createButton.innerText="log out";
-
+            document.getElementById("log").textContent = `log-out`
+            // document.addEventListener("click", hLogOut);
 
         } else {
             console.log(localStorage.getItem("isLogin"));
@@ -58,21 +65,26 @@ function morph() {
     else {
         console.log(localStorage.getItem("isLogin"));
         console.log(location.pathname);
-      }
-    }
-
-function login() {
-    let user = document.getElementById("username").value;
-    let password = document.getElementById("password").value;
-    if (user == Data_Base.test_user.username && password == Data_Base.test_user.password) {
-        sessionStorage.setItem("isLogin", true);
-        sessionStorage.setItem("username", Data_Base.test_user.username);
-        redirect("index.html")
-    } else {
-        alert(`it's the wrong username or password`);
-        sessionStorage.setItem("isLogin", false)
     }
 }
+
+function login() {
+    
+    let user = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
+        if (user == Data_Base.users.username && password == Data_Base.users.password) {
+            sessionStorage.setItem("isLogin", true);
+            sessionStorage.setItem("username", Data_Base.users.username);
+            return redirect("index.html");
+            // hLogOut();
+        } else {
+            sessionStorage.setItem("isLogin", false)
+            return alert(`it's the wrong username or password`);
+        }
+    }
+
+    
+
 
 morph();
 // need logout button !! //
