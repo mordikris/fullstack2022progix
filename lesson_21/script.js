@@ -112,10 +112,10 @@ function resetAll(){
     reset()
     document.getElementById("nameX").textContent = ` ` ;
     document.getElementById("nameO").textContent = ` `;
-    p1['point'] = 0;
-    p2['point'] = 0;
-
-
+    document.getElementById("player_X").textContent = 0;
+    document.getElementById("player_O").textContent = 0;
+    // p1['point'] = 0;
+    // p2['point'] = 0;
 }
 
 let matrix1 = []
