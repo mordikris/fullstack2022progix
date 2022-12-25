@@ -1,6 +1,6 @@
 {
-    "test_user" : {
-        "username": "username",
-        "password": "password"
+    "users": {
+        "username": "mordi",
+        "password": "12345"
     }
 }
