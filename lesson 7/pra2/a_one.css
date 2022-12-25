@@ -77,6 +77,19 @@
     justify-content: center;
 
 }
+.bigbox4:hover {
+
+    text-align: center;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(0, 85, 255);
+    border: solid 3px rgb(0, 255, 247);
+    padding: auto;
+    margin: auto;
+    animation: skew 2s linear infinite alternate;
+    justify-content: center;
+
+}
 
 @keyframes rotate {
     0% {
