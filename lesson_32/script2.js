@@ -33,9 +33,9 @@ $('.db-click').dblclick(() => {
 })
 
 //  --  pract 2.3  --  //
-$('#h5').mouseenter(()=>{
-    $('#h5').css('color','blue')
+$('#h5').mouseenter(() => {
+    $('#h5').css('color', 'blue')
 })
-$('#h5').mouseleave(()=>{
-    $('#h5').css('color','brown')
+$('#h5').mouseleave(() => {
+    $('#h5').css('color', 'brown')
 })
