@@ -1,0 +1,17 @@
+
+.mor {
+  font-size: 60px;
+  font-family: 'Bungee Spice', cursive;
+  font-family: 'Kolker Brush', cursive; 
+  text-align: center;
+  color:rgb(0, 0, 0);
+}
+.mor2 {
+  color: aliceblue;
+  font-family: cursive;
+  font-size: 20px;
+}
+.mor3 {
+  background-color:rgb(0, 0, 0);
+  border: 2px solid rgb(78, 68, 68);
+}
