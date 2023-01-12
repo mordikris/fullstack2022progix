@@ -1,0 +1,13 @@
+.mor{
+    border: solid 5px; 
+    border-color: rgb(83, 55, 20);
+    background-color: bisque;
+    text-align: center;
+}
+.avig{
+    text-align: center;
+    color: rgb(127, 3, 181);
+}
+input{
+    text-align: center;
+}
