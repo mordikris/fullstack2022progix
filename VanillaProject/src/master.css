@@ -1,0 +1,153 @@
+/* for all page*/
+
+body {
+    background-color: rgb(212, 249, 239);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Lucida, Bright;
+    background-color: rgb(120, 191, 191);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+p {
+    text-align: center;
+}
+
+.img {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0mR5a32cOSh94HkvVjhcAJszmM3087gkcfA&usqp=CAU);
+    height: 45px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Lucida, Bright;
+
+}
+
+.darkmode {
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+}
+
+#darkmode-button::before {
+    content: "\2609";
+
+}
+
+#darkmode-button.darkmode::before {
+    content: "\2600";
+}
+
+.my_pages {
+    background-color: transparent;
+    outline: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Lucida, Bright;
+
+
+}
+
+.footer {
+    font-weight: bold;
+    font-family: Lucida, Bright;
+}
+
+/* for login page*/
+
+form {
+    text-align: center;
+}
+
+.login {
+    margin: auto;
+    border: 5px solid rgb(75, 99, 119);
+    border-radius: 10px;
+    width: 420px;
+}
+
+.container {
+    text-align: center;
+
+}
+
+.Description {
+    text-align: center;
+
+}
+
+#h_one {
+    text-align: center;
+    font-family: Lucida, Bright;
+
+}
+
+/* for base page*/
+#happyP {
+
+    background-image: url(https://t4.ftcdn.net/jpg/01/32/61/93/360_F_132619387_pOcjcRMZ49pus3YR4SDKN7zNsiTmJOVy.jpg);
+    width: 450px;
+    height: 350px;
+    margin: auto;
+}
+
+footer {
+    background-color: rgb(78, 146, 152);
+    /* color: #fff; */
+    /* padding: 20px 0; */
+    color: rgb(0, 0, 0);
+
+}
+
+.footer-container {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-container p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.footer-container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.footer-container a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.footer-container i {
+    margin-left: 5px;
+}
+
