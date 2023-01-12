@@ -1,0 +1,44 @@
+body{
+    background-image: url(https://www.yo-yoo.co.il/rekaim/images/uploads/windows-g8408a779c_1280.jpg);
+}
+.Log{
+    height: 300px;
+    width: auto;
+    display: flex;
+    align-items:center ; 
+    /* text-align: center; */
+    justify-content: center;
+    
+}
+.dD{
+    /* align-items:center ;  */
+    text-align: center;
+    justify-content: center;
+    /* border: 2px solid; */
+    /* width: 300px; */
+    /* border-radius:10%; */
+    /* border: width 1px;  */
+    height: auto;
+    width: auto;
+    display: flex;
+    margin: auto;
+    
+}
+/* input{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items:center ; 
+    text-align: center;
+    justify-content: center;
+    
+} */
+/* label{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items:center ; 
+    text-align: center;
+    justify-content: center;
+    
+} */
