@@ -1,0 +1,16 @@
+/*  all page's */
+.darkmode {
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    /* border: none; */
+}
+
+#darkmode-button::before {
+    content: "\2609";
+   
+}
+
+#darkmode-button.darkmode::before {
+    content: "\2600";
+}
